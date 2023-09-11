@@ -1,0 +1,235 @@
+.container {
+    width: 100%;
+  }
+  .innercontainer {
+    width: 80%;
+    margin: auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  li{
+    list-style-type: none;
+    font-family: Mulish;
+    font-size: 18px;
+    color: #7D7987;
+  }
+  
+  li:hover{
+    color: #1F1534;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  .hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .heroText{
+    width: 50%;
+    margin-top: 3rem;
+  }
+  
+  .heroImage{
+    width: 50%;
+  }
+  
+  .heroImage img{
+    width: 100%;
+  }
+  
+  .heroText h2{
+    width: 75%;
+    color: #000;
+    font-family: Mulish;
+    font-size: 48px;
+  }
+  
+  .heroText p{
+
+      color: #7D7987;
+      font-family: Mulish;
+      font-size: 21px;
+      width: 77%;
+    }
+    .heroText button{
+        border-radius: 55px;
+        background: #458FF6;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 18px;
+        border: none;
+        padding: .7rem 2rem;
+      }
+      
+      .heroText button:hover{
+        cursor: pointer;
+        background: rgb(7, 7, 105);
+      }
+      
+      .services{
+        margin-bottom: 4rem;
+        position: relative;
+      }
+      
+      .topServices{
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+      
+      hr{
+        width: 4%;
+      }
+      
+      .topServices h4{
+        color: #000;
+        font-family: Mulish;
+        font-size: 36px;
+      }
+      
+      .topServices p{
+        color: #7D7987;
+        font-family: Mulish;
+        font-size: 18px;
+        width: 90%;
+        margin: auto;
+      }
+      
+      .allCards{
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .allCards2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: .7rem;
+      }
+      
+      .card{
+        width: 285px;
+        /* background: yellow; */
+        padding: 3rem 2rem;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+      }
+      
+      .card h5{
+        color: #000;
+        font-family: Mulish;
+        font-size: 24px;
+      }
+      
+      .card p{
+        color: #7D7987;
+        font-family: Mulish;
+        font-size: 16px;
+        width: 95%;
+      }
+      
+      .consult{
+        height: 30%;
+      }
+      
+      .btn button{
+        color: #458FF6;
+        font-family: Mulish;
+        font-size: 18px;
+        border-radius: 55px;
+        border: 1.4px solid #458FF6;
+        padding: .7rem 2rem;
+        cursor: pointer;
+      }
+      
+      .btn{
+        text-align: center;
+        margin-top: 3rem;
+      }
+      
+      .image1 img{
+        position: absolute;
+        z-index: -1;
+        margin-left: -9rem;
+        margin-top: -3rem;
+      }
+
+      .healthcare{
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+
+.healthImage img{
+  width: 100%;
+}
+
+.healthText{
+  width: 40%;
+}
+
+.healthImage{
+  width: 50%;
+}
+
+.healthText h2{
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.healthText p{
+  color: #7D7987;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  width: 83%;
+}
+
+.horizontal{
+  width: 10%;
+}
+
+.horizontal hr{
+  border-radius: 10px;
+  background: #000;
+  color: #000;
+  height: 1px;
+}
+
+
+.healthText button{
+  color: #458FF6;
+  font-family: Mulish;
+  font-size: 18px;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  padding: .7rem 2rem;
+  cursor: pointer;
+}
+
+
+.download{
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+  
