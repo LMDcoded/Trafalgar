@@ -231,5 +231,6 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   margin-top: 8rem;
+  display: flex;
 }
   
