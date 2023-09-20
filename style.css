@@ -391,3 +391,105 @@ cursor: pointer;
   margin-top: 4rem;
 }
    
+.footer{
+background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+justify-content: space-between;
+
+}
+
+.footerLogo{
+  color: #FFF;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 155.556% */
+width: 391px
+}
+.footerLogo p{
+  color: #FFF;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 155.556% */
+width: 391px;
+}
+.footerComp h4{
+  margin-left: 2.5rem;
+}
+.footerComp{
+  color: #FFF;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 38px; /* 211.111% */
+width: 391px;
+margin-top: -1rem;
+}
+.footerRegion h4{
+  margin-left: 2.5rem;
+}
+
+.footerRegion{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px; /* 211.111% */
+  width: 391px;;
+  margin-top: -1rem;
+}
+.footerHelp h4{
+  margin-left: 2.5rem;
+}
+.footerHelp{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px; /* 211.111% */
+  width: 391px;;
+  margin-top: -1rem;
+}
+.listComp li{
+  color: #FFF;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 38px; /* 211.111% */
+}
+
+.listRegion li{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px; /* 211.111% */
+}
+
+.listHelp li{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px; /* 211.111% */
+}
+.AllFooter{
+  margin-left: 10rem;
+  display: flex;
+  width: 80%;
+  padding: 60px 30px;
+  margin-top: 15rem;
+justify-content: space-between;
+}
+.footRest{
+  display: flex;
+  width: 60%; */
+}
