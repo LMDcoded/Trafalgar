@@ -233,6 +233,43 @@
   margin-top: 8rem;
 
 }
+.downloadImage img{
+  width: 100%;
+}
+
+.downloadText{
+  width: 50%;
+}
+
+.downloadImage{
+  width: 50%;
+}
+
+.downloadText h2{
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+.downloadText p{
+  color: #7D7987;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  width: 90%;
+}
+.downloadText button{
+  color: #458FF6;
+  font-family: Mulish;
+  font-size: 18px;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  padding: .7rem 2rem;
+  cursor: pointer;
+}
+
 .customer{
   border-radius: 24px;
 background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
@@ -488,8 +525,68 @@ line-height: 38px; /* 211.111% */
   padding: 60px 30px;
   margin-top: 15rem;
 justify-content: space-between;
+
 }
 .footRest{
   display: flex;
-  width: 60%; */
+  width: 60%;
 }
+
+@media screen and (max-width: 1024px) {
+  .heroText h2{
+    width: 85%;
+    color: #000;
+    font-family: Mulish;
+    font-size: 40px;
+  }
+  
+  .heroText p{
+
+      color: #7D7987;
+      font-family: Mulish;
+      font-size: 18px;
+      width: 95.5%;
+    }
+
+    .healthText p{
+      color: #7D7987;
+      font-family: Mulish;
+      font-size: 14.5px;
+      font-style: normal;
+      font-weight: 300;
+      width: 100%;
+    }
+
+    .profileText{
+      padding-left: 1.5rem;
+      line-height: 1rem;
+      padding-top: .5rem;
+      width: 100%;
+      font-size: 5px;
+    }
+    .profile{
+      display: flex;
+      width: 100%;
+    }
+    
+.customerText{
+  width: 100%;
+  font-size: 14px;
+  margin: auto;
+ text-align: left;
+}
+.profileText h4{
+  color: #FFF;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+}
+.customerText p{
+  width: 100%;
+  font-size: 15px;
+  margin: auto;
+ text-align: left;
+}
+}
+
