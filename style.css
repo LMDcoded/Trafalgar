@@ -430,7 +430,7 @@ cursor: pointer;
    
 .footer{
 background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-justify-content: space-between;
+justify-content: space-between
 
 }
 
@@ -441,7 +441,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 300;
 line-height: 28px; /* 155.556% */
-width: 391px
+margin-top: 1rem;
 }
 .footerLogo p{
   color: #FFF;
@@ -449,12 +449,11 @@ font-family: Mulish;
 font-size: 18px;
 font-style: normal;
 font-weight: 300;
-line-height: 28px; /* 155.556% */
-width: 391px;
+line-height: 28px; 
 }
-.footerComp h4{
+/* .footerComp h4{
   margin-left: 2.5rem;
-}
+} */
 .footerComp{
   color: #FFF;
 font-family: Mulish;
@@ -463,11 +462,10 @@ font-style: normal;
 font-weight: 300;
 line-height: 38px; /* 211.111% */
 width: 391px;
-margin-top: -1rem;
 }
-.footerRegion h4{
+/* .footerRegion h4{
   margin-left: 2.5rem;
-}
+} */
 
 .footerRegion{
   color: #FFF;
@@ -477,11 +475,10 @@ margin-top: -1rem;
   font-weight: 300;
   line-height: 38px; /* 211.111% */
   width: 391px;;
-  margin-top: -1rem;
 }
-.footerHelp h4{
+/* .footerHelp h4{
   margin-left: 2.5rem;
-}
+} */
 .footerHelp{
   color: #FFF;
   font-family: Mulish;
@@ -490,9 +487,9 @@ margin-top: -1rem;
   font-weight: 300;
   line-height: 38px; /* 211.111% */
   width: 391px;;
-  margin-top: -1rem;
+  
 }
-.listComp li{
+.footerComp li{
   color: #FFF;
 font-family: Mulish;
 font-size: 18px;
@@ -501,7 +498,7 @@ font-weight: 300;
 line-height: 38px; /* 211.111% */
 }
 
-.listRegion li{
+.footerRegion li{
   color: #FFF;
   font-family: Mulish;
   font-size: 18px;
@@ -510,7 +507,7 @@ line-height: 38px; /* 211.111% */
   line-height: 38px; /* 211.111% */
 }
 
-.listHelp li{
+.footerHelp li{
   color: #FFF;
   font-family: Mulish;
   font-size: 18px;
@@ -519,43 +516,54 @@ line-height: 38px; /* 211.111% */
   line-height: 38px; /* 211.111% */
 }
 .AllFooter{
-  margin-left: 10rem;
   display: flex;
-  width: 80%;
+  /* width: 80%; */
+  margin: auto;
+  margin-left: 5rem;
   padding: 60px 30px;
   margin-top: 15rem;
 justify-content: space-between;
+gap: 5rem;
 
-}
-.footRest{
-  display: flex;
-  width: 60%;
 }
 
 @media screen and (max-width: 1024px) {
   .heroText h2{
     width: 85%;
-    color: #000;
-    font-family: Mulish;
     font-size: 40px;
   }
   
   .heroText p{
-
-      color: #7D7987;
-      font-family: Mulish;
       font-size: 18px;
       width: 95.5%;
     }
 
+    .image1 img{
+      margin-top: -32rem;
+    } 
+
+    .topServices{
+      margin-top: 10rem;
+    }
+
+    .topServices hr{
+      margin-top: -2rem;
+    }
+
     .healthText p{
-      color: #7D7987;
-      font-family: Mulish;
       font-size: 14.5px;
-      font-style: normal;
-      font-weight: 300;
       width: 100%;
     }
+
+    .horizontal hr{
+      width: 100%;
+      margin-top: -.5rem;
+    }
+
+    .customer{
+      margin-top: 10rem;
+    }
+
 
     .profileText{
       padding-left: 1.5rem;
@@ -564,6 +572,7 @@ justify-content: space-between;
       width: 100%;
       font-size: 5px;
     }
+
     .profile{
       display: flex;
       width: 100%;
@@ -575,6 +584,7 @@ justify-content: space-between;
   margin: auto;
  text-align: left;
 }
+
 .profileText h4{
   color: #FFF;
 font-family: Mulish;
@@ -582,11 +592,168 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 }
+
 .customerText p{
   width: 100%;
   font-size: 15px;
   margin: auto;
  text-align: left;
 }
+
+.downloadText p{
+  font-size: 18px;
+  width: 90%;
 }
 
+.allCards{
+  gap: 1rem;
+}
+
+.allCards2{
+  gap: 1rem;
+}
+
+
+.topArticle hr{
+  margin-top: -1.5rem;
+}
+
+.articleCards{
+  margin-top: 3rem;
+}
+
+.footerLogo p{
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+
+  nav{
+    display: none;
+  }
+  .heroText h2{
+    font-size: 33px;
+  }
+  .heroText{
+    margin-top: 0rem;
+  }
+  .topServices hr{
+    width: 4rem;
+    margin-top: -2rem;
+  }
+  
+  .services{
+    margin-top: 5rem;
+  }
+  .card p{
+    font-size: 14px;
+  }
+  .card img{
+    width: 40%;
+  }
+  .allCards{
+    gap: 1rem;
+  }
+  .allCards2{
+  gap: 1rem;
+  }
+  .card{
+    padding: 1rem;
+  }
+  .healthText h2{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .healthText p{
+    font-size: 18px;
+    width: 83%;
+  }
+  .healthText{
+    width: 100%;
+    margin-left: 4rem;
+    margin-top: -3rem;
+  }
+  .healthText p{
+    font-size: 18px;
+    width: 100%;
+  }
+  .healthImage img{
+    width: 250px;
+  } 
+  .downloadText{
+    font-size: 90px;
+    width: 100%;
+  }
+  .downloadText h2{
+    margin-top: -2rem;
+  }
+  .downloadText p{
+    width: 100%;
+  }
+
+  .downloadImage{
+    margin-left: 2rem;
+    width: 100%;
+  }
+
+  .topCustomer{
+    margin-top: -3rem;
+  }
+  .topCustomer h1{
+    font-size: 30px;
+  }
+  
+  .topCustomer hr{
+    margin-top: -1rem;
+  }
+
+  .customerText p{
+font-size: 15px;
+width: 100%;
+margin-left: 4rem;
+  }
+
+  .profile{
+    margin-left: -3rem;
+  }
+
+  .footer{
+    margin-top: 8rem;
+  }
+
+  .AllFooter{
+    margin: auto;
+  }
+  .footerComp{
+    font-size: 18px;
+    margin-left: -1.5rem;
+  }
+
+  .footerComp li{
+    font-size: 16px;
+  }
+  .footerRegion{
+    font-size: 18px;
+    margin-left: -2.5rem;
+  }
+  .footerRegion li{
+    font-size: 16px;
+  }
+  .footerHelp{
+    font-size: 18px;
+    margin-left: -3rem;
+  }
+
+  .footerHelp li{
+  font-size: 16px;
+  }
+  .footerElement img{
+    width: 10%;
+  }
+
+    
+  }
