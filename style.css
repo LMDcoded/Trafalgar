@@ -174,16 +174,13 @@
 }
 
 .healthImage img{
-  width: 100%;
+  width: 80%;
 }
 
 .healthText{
   width: 40%;
 }
 
-.healthImage{
-  width: 50%;
-}
 
 .healthText h2{
   color: #000;
@@ -203,7 +200,7 @@
 }
 
 .horizontal{
-  width: 10%;
+   width: 10%;
 }
 
 .horizontal hr{
@@ -211,6 +208,7 @@
   background: #000;
   color: #000;
   height: 1px;
+  width: 100%;
 }
 
 
@@ -234,14 +232,10 @@
 
 }
 .downloadImage img{
-  width: 100%;
+  width: 90%;
 }
 
 .downloadText{
-  width: 50%;
-}
-
-.downloadImage{
   width: 50%;
 }
 
@@ -274,6 +268,7 @@
   border-radius: 24px;
 background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
 padding: 3rem;
+margin-top: 10rem;
 }
 .topCustomer{
   text-align: center;
@@ -290,7 +285,7 @@ font-family: Mulish;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 48px; /* 133.333% */
+line-height: 48px; 
 }
 .mainCustomer{
   display: flex;
@@ -440,9 +435,10 @@ font-family: Mulish;
 font-size: 18px;
 font-style: normal;
 font-weight: 300;
-line-height: 28px; /* 155.556% */
+line-height: 28px; 
 margin-top: 1rem;
 }
+
 .footerLogo p{
   color: #FFF;
 font-family: Mulish;
@@ -451,9 +447,7 @@ font-style: normal;
 font-weight: 300;
 line-height: 28px; 
 }
-/* .footerComp h4{
-  margin-left: 2.5rem;
-} */
+
 .footerComp{
   color: #FFF;
 font-family: Mulish;
@@ -463,9 +457,7 @@ font-weight: 300;
 line-height: 38px; /* 211.111% */
 width: 391px;
 }
-/* .footerRegion h4{
-  margin-left: 2.5rem;
-} */
+
 
 .footerRegion{
   color: #FFF;
@@ -476,9 +468,7 @@ width: 391px;
   line-height: 38px; /* 211.111% */
   width: 391px;;
 }
-/* .footerHelp h4{
-  margin-left: 2.5rem;
-} */
+
 .footerHelp{
   color: #FFF;
   font-family: Mulish;
@@ -635,7 +625,7 @@ font-weight: 700;
     display: none;
   }
   .heroText h2{
-    font-size: 33px;
+    font-size: 30px;
   }
   .heroText{
     margin-top: 0rem;
@@ -753,7 +743,186 @@ margin-left: 4rem;
   }
   .footerElement img{
     width: 10%;
+  } 
   }
 
-    
+@media screen and (max-width: 426px){
+  .hero{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
   }
+
+  .heroText{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .heroImage{
+    width: 100%;
+  }
+
+  .heroText h2{
+    width: 100%;
+    font-size: 38px;
+    margin: auto;
+  }
+  .heroText p{
+    font-size: 21px;
+    width: 100%;
+  }
+
+  .allCards{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .allCards2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card{
+    width: 285px;
+    padding: 3rem 2rem;
+  }
+  
+  .card h5{
+    font-size: 24px;
+  }
+  
+  .card p{
+    font-size: 18px;
+    width: 95%;
+  }
+  
+  .card img{
+    width: 20%;
+  }
+
+  .healthcare{
+    flex-direction: column-reverse;
+  }
+
+  .healthText{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .healthImage{
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .download{
+    flex-direction: column-reverse;
+  }
+
+  .downloadText{
+    width: 100%;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .downloadImage{
+    width: 100%;
+  }
+
+  .horizontal hr{
+    margin-left: 9rem;
+  }
+
+  .customer{
+    width: 80%;
+    margin: auto;
+    margin-top: 6rem;
+  }
+
+  .topCustomer h1{
+    font-size: 18px;
+  }
+
+  
+  .profileText h4{
+    width: 100%;
+    font-size: 12.5px;
+    margin-left: -1rem;
+  }
+
+  .profileText p{
+    font-size: 15.5px;
+    margin-left: -1.5rem;
+  }
+
+  .ProfileImage img{
+    width: 100%;
+  }
+
+  .mainCustomer{
+    flex-direction: column;
+    /* text-align: center; */
+  }
+
+
+.customerText{
+  margin-left: -3rem;
+}
+
+.customerText p{
+  font-size: 15px;
+  width: 100%;
+}
+
+.backImage img{
+  width: .1%;
+}
+
+.articleCards{
+  flex-direction: column;
+}
+
+
+.AllFooter{
+  width: 80%;
+  flex-direction: column;
+  /* text-align: center; */
+  margin-left: 1.5rem;
+} 
+
+.footerLogo p{
+  font-size: 15px;
+  width: 80%;
+}
+
+}
+
+@media screen and (max-width: 376px) {
+.healthText h2{
+  font-size: 30px;
+}
+
+.topCustomer h1{
+  font-size: 15.5px;
+}
+
+.profileText h4{
+  width: 100%;
+  font-size: 9.5px;
+  margin-left: -1rem;
+}
+
+.profileText p{
+  font-size: 15.5px;
+  margin-left: -1.5rem;
+}
+
+.customerText p{
+  width: 100%;
+}
+
+
+
+}
