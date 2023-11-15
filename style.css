@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 .container {
     width: 100%;
   }
@@ -82,6 +87,7 @@
       .services{
         margin-bottom: 4rem;
         position: relative;
+        margin-top: 8rem;
       }
       
       .topServices{
@@ -166,11 +172,12 @@
         margin-top: -3rem;
       }
 
-      .healthcare{
+.healthcare{
   margin-bottom: 4rem;
   display: flex;
   justify-content: space-between;
   margin-top: 8rem;
+  align-items: center;
 }
 
 .healthImage img{
@@ -178,7 +185,7 @@
 }
 
 .healthText{
-  width: 40%;
+  width: 30%;
 }
 
 
@@ -229,6 +236,7 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   margin-top: 8rem;
+  align-items: center;
 
 }
 .downloadImage img{
@@ -297,23 +305,28 @@ line-height: 48px;
   display: flex;
   /* justify-content: space-between; */
   width: 40%;
+  align-items: center;
 }
+
+.ProfileImage img{
+  width: 100%;
+}
+
 .profileText{
-  padding-left: 1.5rem;
-  line-height: 0;
-  padding-top: 2rem;
-}
+  margin-left: 1.5rem;
+} 
+
 .profileText h4{
   color: #FFF;
 font-family: Mulish;
-font-size: 22px;
+font-size: 25px;
 font-style: normal;
 font-weight: 700;
 }
 .profileText p{
   color: rgba(255, 255, 255, 0.85);
 font-family: Mulish;
-font-size: 18px;
+font-size: 20px;
 font-style: normal;
 font-weight: 400;
 
@@ -425,7 +438,7 @@ cursor: pointer;
    
 .footer{
 background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-justify-content: space-between
+margin-top: 8rem;
 
 }
 
@@ -436,7 +449,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 300;
 line-height: 28px; 
-margin-top: 1rem;
+margin-top: 8.5rem;
 }
 
 .footerLogo p{
@@ -445,7 +458,8 @@ font-family: Mulish;
 font-size: 18px;
 font-style: normal;
 font-weight: 300;
-line-height: 28px; 
+line-height: 28px;
+width: 75%; 
 }
 
 .footerComp{
@@ -507,14 +521,16 @@ line-height: 38px; /* 211.111% */
 }
 .AllFooter{
   display: flex;
-  /* width: 80%; */
-  margin: auto;
   margin-left: 5rem;
-  padding: 60px 30px;
-  margin-top: 15rem;
-justify-content: space-between;
-gap: 5rem;
+  /* margin-top: 10rem; */
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
 
+.footerRest{
+  display: flex;
+  margin-top: 6rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -533,11 +549,12 @@ gap: 5rem;
     } 
 
     .topServices{
-      margin-top: 10rem;
+      margin-top: 7rem;
     }
 
-    .topServices hr{
-      margin-top: -2rem;
+
+    .healthText h2{
+      font-size: 30px;
     }
 
     .healthText p{
@@ -547,7 +564,6 @@ gap: 5rem;
 
     .horizontal hr{
       width: 100%;
-      margin-top: -.5rem;
     }
 
     .customer{
@@ -632,7 +648,6 @@ font-weight: 700;
   }
   .topServices hr{
     width: 4rem;
-    margin-top: -2rem;
   }
   
   .services{
@@ -653,8 +668,12 @@ font-weight: 700;
   .card{
     padding: 1rem;
   }
+
+  .healthcare{
+    width: 100%;
+  }
   .healthText h2{
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
   }
@@ -665,22 +684,19 @@ font-weight: 700;
   .healthText{
     width: 100%;
     margin-left: 4rem;
-    margin-top: -3rem;
   }
   .healthText p{
     font-size: 18px;
     width: 100%;
   }
   .healthImage img{
-    width: 250px;
+    width: 100%
   } 
   .downloadText{
     font-size: 90px;
     width: 100%;
   }
-  .downloadText h2{
-    margin-top: -2rem;
-  }
+  
   .downloadText p{
     width: 100%;
   }
@@ -701,15 +717,23 @@ font-weight: 700;
     margin-top: -1rem;
   }
 
-  .customerText p{
-font-size: 15px;
-width: 100%;
-margin-left: 4rem;
+  .profileText{
+    margin-left: -1rem;
+  }
+  
+  .profileText h4{
+    font-size: 15px;
   }
 
-  .profile{
-    margin-left: -3rem;
+  .profileText p{
+    font-size: 15px;
   }
+
+  .customerText p{
+font-size: 15px;
+width: 80%;
+  }
+
 
   .footer{
     margin-top: 8rem;
@@ -717,10 +741,10 @@ margin-left: 4rem;
 
   .AllFooter{
     margin: auto;
+    align-items: center;
   }
   .footerComp{
     font-size: 18px;
-    margin-left: -1.5rem;
   }
 
   .footerComp li{
@@ -728,14 +752,12 @@ margin-left: 4rem;
   }
   .footerRegion{
     font-size: 18px;
-    margin-left: -2.5rem;
   }
   .footerRegion li{
     font-size: 16px;
   }
   .footerHelp{
     font-size: 18px;
-    margin-left: -3rem;
   }
 
   .footerHelp li{
@@ -752,6 +774,7 @@ margin-left: 4rem;
     flex-direction: column;
     margin-top: 6rem;
   }
+
 
   .heroText{
     width: 100%;
@@ -832,29 +855,28 @@ margin-left: 4rem;
   }
 
   .horizontal hr{
-    margin-left: 9rem;
+    display: none;
   }
 
   .customer{
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 6rem;
   }
 
   .topCustomer h1{
-    font-size: 18px;
+    font-size: 15px;
+    width: 100%;
   }
 
   
   .profileText h4{
     width: 100%;
-    font-size: 12.5px;
-    margin-left: -1rem;
+    font-size: 10px;
   }
 
   .profileText p{
-    font-size: 15.5px;
-    margin-left: -1.5rem;
+    font-size: 12px;
   }
 
   .ProfileImage img{
@@ -865,11 +887,6 @@ margin-left: 4rem;
     flex-direction: column;
     /* text-align: center; */
   }
-
-
-.customerText{
-  margin-left: -3rem;
-}
 
 .customerText p{
   font-size: 15px;
@@ -888,9 +905,13 @@ margin-left: 4rem;
 .AllFooter{
   width: 80%;
   flex-direction: column;
-  /* text-align: center; */
-  margin-left: 1.5rem;
-} 
+  align-items: center;
+}
+
+.footerRest{
+  flex-direction: column;
+  width: 100%;
+}
 
 .footerLogo p{
   font-size: 15px;
@@ -900,29 +921,38 @@ margin-left: 4rem;
 }
 
 @media screen and (max-width: 376px) {
+
+  .heroText h2{
+    font-size: 32px;
+  }
 .healthText h2{
   font-size: 30px;
 }
 
 .topCustomer h1{
-  font-size: 15.5px;
+  font-size: 13px;
+}
+
+.profileText{
+  width: 100%;
 }
 
 .profileText h4{
   width: 100%;
-  font-size: 9.5px;
-  margin-left: -1rem;
+  font-size: 12px;
 }
 
 .profileText p{
-  font-size: 15.5px;
-  margin-left: -1.5rem;
+  font-size: 12px;
 }
 
-.customerText p{
+.customerText{
   width: 100%;
 }
 
-
+.customerText p{
+  font-size: 12px;
+  width: 100%;
+}
 
 }
